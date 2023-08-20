@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-20T16:10:56 IST" name="demoBankingV1" finished-at="2023-08-20T16:12:38 IST" duration-ms="102137">
+    <groups>
+    </groups>
+    <test started-at="2023-08-20T16:10:56 IST" name="Test" finished-at="2023-08-20T16:12:38 IST" duration-ms="102137">
+      <class name="com.demoBankingV1.testCases.TC_LoginDDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@7e7be63f]" started-at="2023-08-20T16:11:14 IST" name="setup" finished-at="2023-08-20T16:11:24 IST" duration-ms="10179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@7e7be63f]" started-at="2023-08-20T16:11:28 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-08-20T16:11:32 IST" duration-ms="4818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr519956]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Uvymysy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@7e7be63f]" started-at="2023-08-20T16:11:32 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-08-20T16:11:47 IST" duration-ms="14244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr519956]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Uvymysy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@7e7be63f]" started-at="2023-08-20T16:11:47 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-08-20T16:11:57 IST" duration-ms="10471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr519956]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Uvymysy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@7e7be63f]" started-at="2023-08-20T16:11:57 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-08-20T16:12:06 IST" duration-ms="9049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr519956]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Uvymysy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@7e7be63f]" started-at="2023-08-20T16:12:06 IST" name="tearDown" finished-at="2023-08-20T16:12:07 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoBankingV1.testCases.TC_LoginDDT_002 -->
+      <class name="com.demoBankingV1.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginTest_001@3b6ddd1d]" started-at="2023-08-20T16:10:57 IST" name="setup" finished-at="2023-08-20T16:11:11 IST" duration-ms="14441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.demoBankingV1.testCases.TC_LoginTest_001@3b6ddd1d]" started-at="2023-08-20T16:11:11 IST" name="loginTest" finished-at="2023-08-20T16:11:13 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_LoginTest_001@3b6ddd1d]" started-at="2023-08-20T16:11:13 IST" name="tearDown" finished-at="2023-08-20T16:11:14 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoBankingV1.testCases.TC_LoginTest_001 -->
+      <class name="com.demoBankingV1.testCases.TC_AddCustomerTest_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_AddCustomerTest_003@6cd28fa7]" started-at="2023-08-20T16:12:07 IST" name="setup" finished-at="2023-08-20T16:12:16 IST" duration-ms="9220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer()[pri:0, instance:com.demoBankingV1.testCases.TC_AddCustomerTest_003@6cd28fa7]" started-at="2023-08-20T16:12:16 IST" name="addNewCustomer" finished-at="2023-08-20T16:12:37 IST" duration-ms="20948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_AddCustomerTest_003@6cd28fa7]" started-at="2023-08-20T16:12:37 IST" name="tearDown" finished-at="2023-08-20T16:12:38 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoBankingV1.testCases.TC_AddCustomerTest_003 -->
+    </test> <!-- Test -->
+  </suite> <!-- demoBankingV1 -->
+</testng-results>

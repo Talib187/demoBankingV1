@@ -1,0 +1,11 @@
+com\demoBankingV1\utilities\Reporting.class
+com\demoBankingV1\utilities\XLUtils$1.class
+com\demoBankingV1\testCases\TC_AddCustomerTest_003.class
+com\demoBankingV1\utilities\ReadConfig.class
+com\demoBankingV1\pageObjects\AddCustomerPage.class
+com\demoBankingV1\pageObjects\loginPage.class
+com\demoBankingV1\testCases\TC_LoginTest_001.class
+com\demoBankingV1\utilities\test.class
+com\demoBankingV1\utilities\XLUtils.class
+com\demoBankingV1\testCases\TC_LoginDDT_002.class
+com\demoBankingV1\testCases\BaseClass.class
