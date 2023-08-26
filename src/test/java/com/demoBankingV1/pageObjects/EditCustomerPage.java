@@ -43,7 +43,7 @@ public class EditCustomerPage extends BaseClass {
 	public void enterCustID(String custID) {
 
 		txtCustID.sendKeys(custID);
-		logger.info("Entered invalid customer ID.");
+		//logger.info("Entered invalid customer ID.");
 	}
 
 	public void clickSubmit() {

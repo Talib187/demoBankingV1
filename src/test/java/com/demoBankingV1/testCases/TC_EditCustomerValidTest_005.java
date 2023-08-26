@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 import com.demoBankingV1.pageObjects.EditCustomerPage;
 import com.demoBankingV1.pageObjects.loginPage;
 
-public class TC_EditCustomerTest_004 extends BaseClass {
+public class TC_EditCustomerValidTest_005 extends BaseClass {
 
 	@Test
-	public void editCustomer() throws IOException, InterruptedException {
+	public void editCustomerValid() throws IOException, InterruptedException {
 
 		loginPage lp = new loginPage(driver);
 		lp.setUserName(readconfig.getUsername());
@@ -26,28 +26,32 @@ public class TC_EditCustomerTest_004 extends BaseClass {
 
 		editCust.clickEditCst();
 
-		String custId = randomNumber();
-		editCust.enterCustID(custId);
-		logger.info("Entered invalid customer id");
-		System.out.println(custId);
+//		String custId = randomNumber();
+
+		editCust.enterCustID("70469");
+		System.out.println(75606);
+		logger.info("Entered valid cusstomer id");
 
 		editCust.clickSubmit();
 
 		if (isAlertPresent() == true) {
 
+			captureScreen(driver, "editCustoer");
 			if (driver.switchTo().alert().getText().equals("You are not authorize to edit this customer!!")) {
-				
+
 				System.out.println("Popup says:" + driver.switchTo().alert().getText());
 
 				driver.switchTo().alert().accept();
 
-				Assert.assertTrue(true);
+				Assert.assertTrue(false);
 				logger.info("Invalid customer ID.");
 			}
 
 			else {
-				captureScreen(driver, "editCustomer");
-				Assert.assertTrue(false);
+			
+				System.out.println("Title of the page:" +driver.getTitle());
+				Assert.assertTrue(true);
+				
 			}
 		}
 

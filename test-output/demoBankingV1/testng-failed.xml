@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browsers" value="chrome"/>
     <classes>
-      <class name="com.demoBankingV1.testCases.TC_EditCustomerTest_004">
+      <class name="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005">
         <methods>
           <include name="setup"/>
-          <include name="editCustoer"/>
           <include name="tearDown"/>
+          <include name="editCustomerValid"/>
         </methods>
-      </class> <!-- com.demoBankingV1.testCases.TC_EditCustomerTest_004 -->
+      </class> <!-- com.demoBankingV1.testCases.TC_EditCustomerValidTest_005 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [demoBankingV1] -->

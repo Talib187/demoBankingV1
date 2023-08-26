@@ -52,6 +52,10 @@ public class AddCustomerPage {
 	@CacheLookup
 	WebElement btnSubmit;
 
+	@FindBy(xpath = "/html/body/table/tbody/tr/td/table/tbody/tr[4]/td[2]")
+	@CacheLookup
+	WebElement custId;
+
 	public void clickAddCust() throws InterruptedException {
 		linkNewCust.click();
 		Thread.sleep(2000);
@@ -100,8 +104,15 @@ public class AddCustomerPage {
 	public void addCustPassword(String pass) {
 		txtPass.sendKeys(pass);
 	}
+
 	public void clickSubmit() {
-		
+
 		btnSubmit.click();
+	}
+
+	public void getCustomerID() {
+
+		//String afsd = custId.getText();
+
 	}
 }
