@@ -61,7 +61,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+		// driver.quit();
 	}
 
 	public void captureScreen(WebDriver driver, String testName) throws IOException {
