@@ -15,6 +15,7 @@
 			<class name="com.demoBankingV1.testCases.TC_AddCustomerTest_003" />
 			<class name="com.demoBankingV1.testCases.TC_EditCustomerTest_004" />
 			<class name="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005" />
+			<class name=""></class>
 
 
 
