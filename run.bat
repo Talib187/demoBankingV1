@@ -24,3 +24,37 @@ mvn clean install
 
 	</test> <!-- Test -->
 </suite> <!-- -->
+
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class ActionsExample {
+    public static void main(String[] args) {
+        // Set the path to your ChromeDriver executable
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+
+        // Initialize the WebDriver
+        WebDriver driver = new ChromeDriver();
+
+        // Navigate to the webpage
+        driver.get("URL of your webpage");
+
+        // Locate the elements
+        WebElement dropdownButton = driver.findElement(By.id("dropdownButton"));
+        WebElement optionToClick = driver.findElement(By.xpath("//li[text()='Option 2']"));
+
+        // Create an instance of the Actions class
+        Actions actions = new Actions(driver);
+
+        // Perform the mouse actions
+        actions.moveToElement(dropdownButton).perform(); // Hover over the button
+        actions.click(optionToClick).perform(); // Click on the desired option
+
+        // Close the browser
+        driver.quit();
+    }
+}

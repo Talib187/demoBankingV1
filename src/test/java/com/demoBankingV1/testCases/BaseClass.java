@@ -30,7 +30,6 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Logger logger;
 
-	@SuppressWarnings("deprecation")
 	@Parameters("browsers")
 
 	@BeforeClass
@@ -41,11 +40,14 @@ public class BaseClass {
 				.configure("C:\\Users\\mtali\\eclipse-workspace\\demoBankingV1\\Configuration\\log4j.properties");
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
+			
+			ChromeOptions opt = new ChromeOptions();
+	//		opt.addArguments("--headless");
 
 			// System.setProperty("webdriver.chrome.driver",
 			// "C:\\Users\\mtali\\eclipse-workspace\\demoBankingV1\\Drivers\\chromedriver.exe");
 
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(opt);
 		}
 
 		if (browser.equals("edge")) {
@@ -61,7 +63,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void tearDown() {
-		// driver.quit();
+		driver.quit();
 	}
 
 	public void captureScreen(WebDriver driver, String testName) throws IOException {
