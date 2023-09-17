@@ -28,23 +28,24 @@ public class TC_EditCustomerValidTest_005 extends BaseClass {
 
 //		String custId = randomNumber();
 
-		editCust.enterCustID("70469");
-		System.out.println(75606);
+		editCust.enterCustID("98625");
+		System.out.println(98625);
 		logger.info("Entered valid cusstomer id");
 
 		editCust.clickSubmit();
 
 		if (isAlertPresent() == true) {
 
-			captureScreen(driver, "editCustoer");
+			captureScreen(driver, "editCustomerValid");
 			if (driver.switchTo().alert().getText().equals("You are not authorize to edit this customer!!")) {
 
 				System.out.println("Popup says:" + driver.switchTo().alert().getText());
 
 				driver.switchTo().alert().accept();
 
-				Assert.assertTrue(false);
 				logger.info("Invalid customer ID.");
+				Assert.assertTrue(false);
+			
 			}
 
 			else {
