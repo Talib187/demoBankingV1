@@ -38,6 +38,8 @@ public class BaseClass {
 		logger = Logger.getLogger("ebanking");
 		PropertyConfigurator
 				.configure("C:\\Users\\mtali\\eclipse-workspace\\demoBankingV1\\Configuration\\log4j.properties");
+	
+
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			
