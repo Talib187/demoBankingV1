@@ -44,12 +44,12 @@ public class BaseClass {
 			WebDriverManager.chromedriver().setup();
 			
 			ChromeOptions opt = new ChromeOptions();
-	//		opt.addArguments("--headless");
+			opt.addArguments("--headless");
 
 			// System.setProperty("webdriver.chrome.driver",
 			// "C:\\Users\\mtali\\eclipse-workspace\\demoBankingV1\\Drivers\\chromedriver.exe");
 
-			driver = new ChromeDriver(opt);
+			driver = new ChromeDriver();
 		}
 
 		if (browser.equals("edge")) {

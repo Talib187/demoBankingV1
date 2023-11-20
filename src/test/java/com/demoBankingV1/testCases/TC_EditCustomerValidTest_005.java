@@ -28,8 +28,8 @@ public class TC_EditCustomerValidTest_005 extends BaseClass {
 
 //		String custId = randomNumber();
 
-		editCust.enterCustID("98625");
-		System.out.println(98625);
+		editCust.enterCustID("26620");
+		System.out.println(26620);
 		logger.info("Entered valid cusstomer id");
 
 		editCust.clickSubmit();
