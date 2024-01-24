@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="77.592" tests="8" errors="0" skipped="0" failures="6">
+<testsuite name="TestSuite" time="61.903" tests="8" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="sun.boot.library.path" value="C:\Users\mtali\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\mtali\eclipse-workspace\demoBankingV1"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="user.script" value=""/>
     <property name="user.country" value="IN"/>
@@ -17,162 +18,64 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\mtali\eclipse-workspace\demoBankingV1"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.runtime.version" value="17.0.8.1+1"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\mtali\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\apache-maven-3.9.4\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\mtali\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1004496064042436327.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\mtali\AppData\Local\Microsoft\WindowsApps;C:\Users\mtali\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.4\bin;C:\Users\mtali\AppData\Local\Microsoft\WindowsApps;C:\Users\mtali\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
-    <property name="maven.conf" value="C:\apache-maven-3.9.4/conf"/>
+    <property name="java.library.path" value="C:\Users\mtali\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/mtali/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin/server;C:/Users/mtali/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\mtali\AppData\Local\Microsoft\WindowsApps;C:\Users\mtali\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.4\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\mtali\AppData\Local\Microsoft\WindowsApps;C:\Users\mtali\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\System32;;."/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\apache-maven-3.9.4\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\mtali"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.specification.version" value="11"/>
+    <property name="file.encoding" value="windows-1252"/>
+    <property name="java.specification.version" value="17"/>
     <property name="user.name" value="mtali"/>
-    <property name="java.class.path" value="C:\apache-maven-3.9.4\boot\plexus-classworlds-2.7.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.class.path" value="C:\Users\mtali\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="C:\Users\mtali\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.14"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="maven.home" value="C:\apache-maven-3.9.4"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\mtali\eclipse-workspace\demoBankingV1\EMBEDDED"/>
+    <property name="style.color" value="always"/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2022-01-18"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
+    <property name="m2e.build.project.data.socket.port" value="52378"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="com.demoBankingV1.testCases.TC_LoginTest_001" time="4.57"/>
-  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="4.046">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
-</failure>
-    <system-out><![CDATA[2023-11-20 21:42:18 INFO  ebanking:63 - URL is opened:
-2023-11-20 21:42:22 INFO  ebanking:43 - Username entered
-2023-11-20 21:42:22 INFO  ebanking:46 - Passwrod entered
-2023-11-20 21:42:24 INFO  ebanking:48 - Clicked on submit
-2023-11-20 21:42:24 INFO  ebanking:53 - Invalid credentials
-2023-11-20 21:42:24 WARN  ebanking:54 - Login failure
-Screenshot taken
-]]></system-out>
-    <system-err><![CDATA[Nov 20, 2023 9:42:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 119, so returning the closest version found: 115
-]]></system-err>
-  </testcase>
-  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="5.444">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
-</failure>
-    <system-out><![CDATA[2023-11-20 21:42:27 INFO  ebanking:43 - Username entered
-2023-11-20 21:42:27 INFO  ebanking:46 - Passwrod entered
-2023-11-20 21:42:29 INFO  ebanking:48 - Clicked on submit
-2023-11-20 21:42:29 INFO  ebanking:53 - Invalid credentials
-2023-11-20 21:42:29 WARN  ebanking:54 - Login failure
-Screenshot taken
-]]></system-out>
-  </testcase>
-  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="4.118">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
-</failure>
-    <system-out><![CDATA[2023-11-20 21:42:31 INFO  ebanking:43 - Username entered
-2023-11-20 21:42:31 INFO  ebanking:46 - Passwrod entered
-2023-11-20 21:42:32 INFO  ebanking:48 - Clicked on submit
-2023-11-20 21:42:32 INFO  ebanking:53 - Invalid credentials
-2023-11-20 21:42:32 WARN  ebanking:54 - Login failure
-Screenshot taken
-]]></system-out>
-  </testcase>
-  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="3.946">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
-</failure>
-    <system-out><![CDATA[2023-11-20 21:42:35 INFO  ebanking:43 - Username entered
-2023-11-20 21:42:35 INFO  ebanking:46 - Passwrod entered
-2023-11-20 21:42:37 INFO  ebanking:48 - Clicked on submit
-2023-11-20 21:42:37 INFO  ebanking:53 - Invalid credentials
-2023-11-20 21:42:37 WARN  ebanking:54 - Login failure
-Screenshot taken
-]]></system-out>
-  </testcase>
-  <testcase name="addNewCustomer" classname="com.demoBankingV1.testCases.TC_AddCustomerTest_003" time="25.132">
-    <failure message="unexpected alert open: {Alert text : Customer could not be added !!}&#10;  (Session info: MicrosoftEdge=119.0.2151.72): Customer could not be added !!&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [f86f28a05c56105c12a8a3437012e727, getPageSource {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52740}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52740/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f86f28a05c56105c12a8a3437012e727" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
-  (Session info: MicrosoftEdge=119.0.2151.72): Customer could not be added !!
+  <testcase name="loginTest" classname="com.demoBankingV1.testCases.TC_LoginTest_001" time="1.823"/>
+  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="8.719"/>
+  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="3.563"/>
+  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="3.787"/>
+  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="4.258"/>
+  <testcase name="addNewCustomer" classname="com.demoBankingV1.testCases.TC_AddCustomerTest_003" time="23.343"/>
+  <testcase name="editCustomer" classname="com.demoBankingV1.testCases.TC_EditCustomerTest_004" time="12.668"/>
+  <testcase name="editCustomerValid" classname="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005" time="15.35">
+    <failure message="unexpected alert open: {Alert text : You are not authorize to edit this customer!!}&#10;  (Session info: MicrosoftEdge=120.0.2210.144): You are not authorize to edit this customer!!&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [e5aaf35be5b8ef0604f5986aaa28b33a, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.144, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52744}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52744/devtoo..., se:cdpVersion: 120.0.2210.144, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e5aaf35be5b8ef0604f5986aaa28b33a" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You are not authorize to edit this customer!!}
+  (Session info: MicrosoftEdge=120.0.2210.144): You are not authorize to edit this customer!!
 Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [f86f28a05c56105c12a8a3437012e727, getPageSource {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52740}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52740/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f86f28a05c56105c12a8a3437012e727
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:381)
-	at com.demoBankingV1.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:62)
-</failure>
-    <system-out><![CDATA[2023-11-20 21:42:53 INFO  ebanking:63 - URL is opened:
-2023-11-20 21:42:53 INFO  ebanking:23 - Provided username
-2023-11-20 21:42:54 INFO  ebanking:25 - Provided password
-2023-11-20 21:43:03 INFO  ebanking:35 - Providing customer details
-2023-11-20 21:43:18 INFO  ebanking:61 - Validation started
-]]></system-out>
-    <system-err><![CDATA[Nov 20, 2023 9:42:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 119, so returning the closest version found: 115
-]]></system-err>
-  </testcase>
-  <testcase name="editCustomer" classname="com.demoBankingV1.testCases.TC_EditCustomerTest_004" time="14.082"/>
-  <testcase name="editCustomerValid" classname="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005" time="29.762">
-    <failure message="unexpected alert open: {Alert text : You are not authorize to edit this customer!!}&#10;  (Session info: MicrosoftEdge=119.0.2151.72): You are not authorize to edit this customer!!&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [c1b9f27104320669d679069ecc21cf04, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53040}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53040/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c1b9f27104320669d679069ecc21cf04" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You are not authorize to edit this customer!!}
-  (Session info: MicrosoftEdge=119.0.2151.72): You are not authorize to edit this customer!!
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [c1b9f27104320669d679069ecc21cf04, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53040}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53040/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c1b9f27104320669d679069ecc21cf04
+Command: [e5aaf35be5b8ef0604f5986aaa28b33a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.144, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52744}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52744/devtoo..., se:cdpVersion: 120.0.2210.144, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aaf35be5b8ef0604f5986aaa28b33a
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
@@ -182,20 +85,22 @@ Session ID: c1b9f27104320669d679069ecc21cf04
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-	at com.demoBankingV1.testCases.BaseClass.captureScreen(BaseClass.java:75)
+	at com.demoBankingV1.testCases.BaseClass.captureScreen(BaseClass.java:77)
 	at com.demoBankingV1.testCases.TC_EditCustomerValidTest_005.editCustomerValid(TC_EditCustomerValidTest_005.java:39)
 </failure>
-    <system-out><![CDATA[2023-11-20 21:44:07 INFO  ebanking:63 - URL is opened:
-2023-11-20 21:44:24 INFO  ebanking:19 - Provided username
-2023-11-20 21:44:24 INFO  ebanking:21 - Provided password
-2023-11-20 21:44:28 INFO  ebanking:23 - User logged in successfully
-2023-11-20 21:44:36 INFO  ebanking:40 - Clicked on Edit Customer
+    <system-out><![CDATA[2024-01-24 21:30:42 INFO  ebanking:65 - URL is opened:
+2024-01-24 21:30:42 INFO  ebanking:19 - Provided username
+2024-01-24 21:30:42 INFO  ebanking:21 - Provided password
+2024-01-24 21:30:51 INFO  ebanking:23 - User logged in successfully
+2024-01-24 21:30:56 INFO  ebanking:40 - Clicked on Edit Customer
 26620
-2023-11-20 21:44:36 INFO  ebanking:33 - Entered valid cusstomer id
-2023-11-20 21:44:37 INFO  ebanking:52 - Clicked on Submit
+2024-01-24 21:30:56 INFO  ebanking:33 - Entered valid cusstomer id
+2024-01-24 21:30:57 INFO  ebanking:52 - Clicked on Submit
 ]]></system-out>
-    <system-err><![CDATA[Nov 20, 2023 9:44:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 119, so returning the closest version found: 115
+    <system-err><![CDATA[Jan 24, 2024 9:30:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 120
+Jan 24, 2024 9:30:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 120.0.2210.144. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
 </testsuite>

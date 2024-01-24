@@ -1,68 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 183.327 sec <<< FAILURE! - in TestSuite
-loginDDT(com.demoBankingV1.testCases.TC_LoginDDT_002)  Time elapsed: 4.046 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
-
-loginDDT(com.demoBankingV1.testCases.TC_LoginDDT_002)  Time elapsed: 5.444 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
-
-loginDDT(com.demoBankingV1.testCases.TC_LoginDDT_002)  Time elapsed: 4.118 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
-
-loginDDT(com.demoBankingV1.testCases.TC_LoginDDT_002)  Time elapsed: 3.946 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
-
-addNewCustomer(com.demoBankingV1.testCases.TC_AddCustomerTest_003)  Time elapsed: 25.132 sec  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
-  (Session info: MicrosoftEdge=119.0.2151.72): Customer could not be added !!
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [f86f28a05c56105c12a8a3437012e727, getPageSource {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52740}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52740/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f86f28a05c56105c12a8a3437012e727
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:381)
-	at com.demoBankingV1.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:62)
-
-editCustomerValid(com.demoBankingV1.testCases.TC_EditCustomerValidTest_005)  Time elapsed: 29.762 sec  <<< FAILURE!
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 122.574 sec <<< FAILURE! - in TestSuite
+editCustomerValid(com.demoBankingV1.testCases.TC_EditCustomerValidTest_005)  Time elapsed: 15.35 sec  <<< FAILURE!
 org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You are not authorize to edit this customer!!}
-  (Session info: MicrosoftEdge=119.0.2151.72): You are not authorize to edit this customer!!
+  (Session info: MicrosoftEdge=120.0.2210.144): You are not authorize to edit this customer!!
 Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [c1b9f27104320669d679069ecc21cf04, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53040}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53040/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c1b9f27104320669d679069ecc21cf04
+Command: [e5aaf35be5b8ef0604f5986aaa28b33a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.144, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52744}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52744/devtoo..., se:cdpVersion: 120.0.2210.144, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5aaf35be5b8ef0604f5986aaa28b33a
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
@@ -72,6 +20,6 @@ Session ID: c1b9f27104320669d679069ecc21cf04
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-	at com.demoBankingV1.testCases.BaseClass.captureScreen(BaseClass.java:75)
+	at com.demoBankingV1.testCases.BaseClass.captureScreen(BaseClass.java:77)
 	at com.demoBankingV1.testCases.TC_EditCustomerValidTest_005.editCustomerValid(TC_EditCustomerValidTest_005.java:39)
 

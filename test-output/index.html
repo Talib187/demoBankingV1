@@ -234,13 +234,13 @@
                   </a> <!-- editCustomerValid -->
                   <span class="method-name">editCustomerValid</span>
                   <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You are not authorize to edit this customer!!}
-  (Session info: MicrosoftEdge=119.0.2151.72): You are not authorize to edit this customer!!
+  (Session info: MicrosoftEdge=120.0.2210.144): You are not authorize to edit this customer!!
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [6e8268677dcb31c3b3200ceee4568aa6, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.72, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52224}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52224/devtoo..., se:cdpVersion: 119.0.2151.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6e8268677dcb31c3b3200ceee4568aa6
+Command: [b7f561f96880b349c01d3053fadef9fa, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.144, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52188}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52188/devtoo..., se:cdpVersion: 120.0.2210.144, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7f561f96880b349c01d3053fadef9fa
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
@@ -250,7 +250,7 @@ Session ID: 6e8268677dcb31c3b3200ceee4568aa6
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-	at com.demoBankingV1.testCases.BaseClass.captureScreen(BaseClass.java:75)
+	at com.demoBankingV1.testCases.BaseClass.captureScreen(BaseClass.java:77)
 	at com.demoBankingV1.testCases.TC_EditCustomerValidTest_005.editCustomerValid(TC_EditCustomerValidTest_005.java:39)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 27 stack frames
@@ -368,35 +368,35 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addNewCustomer')
 data.setCell(0, 2, 'com.demoBankingV1.testCases.TC_AddCustomerTest_003')
-data.setCell(0, 3, 31480);
+data.setCell(0, 3, 28297);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'editCustomer')
-data.setCell(1, 2, 'com.demoBankingV1.testCases.TC_EditCustomerTest_004')
-data.setCell(1, 3, 26471);
+data.setCell(1, 1, 'editCustomerValid')
+data.setCell(1, 2, 'com.demoBankingV1.testCases.TC_EditCustomerValidTest_005')
+data.setCell(1, 3, 11584);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'editCustomerValid')
-data.setCell(2, 2, 'com.demoBankingV1.testCases.TC_EditCustomerValidTest_005')
-data.setCell(2, 3, 14719);
+data.setCell(2, 1, 'loginDDT')
+data.setCell(2, 2, 'com.demoBankingV1.testCases.TC_LoginDDT_002')
+data.setCell(2, 3, 8371);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginDDT')
-data.setCell(3, 2, 'com.demoBankingV1.testCases.TC_LoginDDT_002')
-data.setCell(3, 3, 12534);
+data.setCell(3, 1, 'editCustomer')
+data.setCell(3, 2, 'com.demoBankingV1.testCases.TC_EditCustomerTest_004')
+data.setCell(3, 3, 7444);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTest')
-data.setCell(4, 2, 'com.demoBankingV1.testCases.TC_LoginTest_001')
-data.setCell(4, 3, 10446);
+data.setCell(4, 1, 'loginDDT')
+data.setCell(4, 2, 'com.demoBankingV1.testCases.TC_LoginDDT_002')
+data.setCell(4, 3, 5470);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'loginDDT')
 data.setCell(5, 2, 'com.demoBankingV1.testCases.TC_LoginDDT_002')
-data.setCell(5, 3, 7115);
+data.setCell(5, 3, 4233);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'loginDDT')
 data.setCell(6, 2, 'com.demoBankingV1.testCases.TC_LoginDDT_002')
-data.setCell(6, 3, 4965);
+data.setCell(6, 3, 4030);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'loginDDT')
-data.setCell(7, 2, 'com.demoBankingV1.testCases.TC_LoginDDT_002')
-data.setCell(7, 3, 2240);
+data.setCell(7, 1, 'loginTest')
+data.setCell(7, 2, 'com.demoBankingV1.testCases.TC_LoginTest_001')
+data.setCell(7, 3, 3566);
 window.suiteTableData['demoBankingV1']= { tableData: data, tableDiv: 'times-div-demoBankingV1'}
 return data;
 }
@@ -434,93 +434,93 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">36462 ms</span>
+                <span class="method-start">9011 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46941 ms</span>
+                <span class="method-start">12593 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demoBankingV1.testCases.TC_LoginDDT_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(edge)</span>
-                <span class="method-start">46945 ms</span>
+                <span class="method-start">12596 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginDDT(mngr532735, tYruhUp)</span>
-                <span class="method-start">72213 ms</span>
+                <span class="method-start">26741 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginDDT(mngr532735, tYruhUp)</span>
-                <span class="method-start">84753 ms</span>
+                <span class="method-start">35119 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginDDT(mngr532735, tYruhUp)</span>
-                <span class="method-start">89721 ms</span>
+                <span class="method-start">40592 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginDDT(mngr532735, tYruhUp)</span>
-                <span class="method-start">96842 ms</span>
+                <span class="method-start">44828 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">99085 ms</span>
+                <span class="method-start">48870 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demoBankingV1.testCases.TC_AddCustomerTest_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(edge)</span>
-                <span class="method-start">99087 ms</span>
+                <span class="method-start">48873 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addNewCustomer</span>
-                <span class="method-start">126615 ms</span>
+                <span class="method-start">56838 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">158102 ms</span>
+                <span class="method-start">85139 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demoBankingV1.testCases.TC_EditCustomerTest_004</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(edge)</span>
-                <span class="method-start">158103 ms</span>
+                <span class="method-start">85140 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">editCustomer</span>
-                <span class="method-start">202707 ms</span>
+                <span class="method-start">93107 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">229191 ms</span>
+                <span class="method-start">100577 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.demoBankingV1.testCases.TC_EditCustomerValidTest_005</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(edge)</span>
-                <span class="method-start">229192 ms</span>
+                <span class="method-start">100579 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">editCustomerValid</span>
-                <span class="method-start">246929 ms</span>
+                <span class="method-start">112071 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">261672 ms</span>
+                <span class="method-start">123661 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
