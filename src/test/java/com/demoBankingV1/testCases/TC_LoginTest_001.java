@@ -23,7 +23,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		lp.clickSubmit();
 		logger.info("Click on login");
 
-		if (driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
+		if (driver.getTitle().equals("Guru99 Bank Manager HomePage1")) {
 
 			Assert.assertTrue(true);
 			logger.info("TC_LoginTest_001 Passed");
@@ -32,7 +32,7 @@ public class TC_LoginTest_001 extends BaseClass {
 
 		else {
 
-			logger.info("TC_LoginTest_001 Failed"); // it needs to be written befor below condition as after above
+			logger.info("TC_LoginTest_001 Failed"); // it needs to be written before below condition as after above
 													// condition no statement will be executed;
 
 			captureScreen(driver, "loginTest");

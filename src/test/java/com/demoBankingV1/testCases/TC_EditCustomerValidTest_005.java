@@ -46,6 +46,7 @@ public class TC_EditCustomerValidTest_005 extends BaseClass {
 				logger.info("Invalid customer ID.");
 				Assert.assertTrue(true);
 			
+				System.out.println("");
 			}
 
 			else {

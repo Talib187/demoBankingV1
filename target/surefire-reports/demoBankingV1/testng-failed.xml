@@ -7,6 +7,20 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browsers" value="edge"/>
     <classes>
+      <class name="com.demoBankingV1.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.demoBankingV1.testCases.TC_LoginTest_001 -->
+      <class name="com.demoBankingV1.testCases.TC_AddCustomerTest_003">
+        <methods>
+          <include name="addNewCustomer"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.demoBankingV1.testCases.TC_AddCustomerTest_003 -->
       <class name="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005">
         <methods>
           <include name="setup"/>
@@ -14,6 +28,20 @@
           <include name="editCustomerValid"/>
         </methods>
       </class> <!-- com.demoBankingV1.testCases.TC_EditCustomerValidTest_005 -->
+      <class name="com.demoBankingV1.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.demoBankingV1.testCases.TC_LoginDDT_002 -->
+      <class name="com.demoBankingV1.testCases.TC_EditCustomerTest_004">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="editCustomer"/>
+        </methods>
+      </class> <!-- com.demoBankingV1.testCases.TC_EditCustomerTest_004 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [demoBankingV1] -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="61.903" tests="8" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="13.759" tests="8" errors="0" skipped="0" failures="8">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -24,10 +24,12 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="windows-1252"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\Users\mtali\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1004496064042436327.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\mtali\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2408990515255656375.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\mtali\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/mtali/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin/server;C:/Users/mtali/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\mtali\AppData\Local\Microsoft\WindowsApps;C:\Users\mtali\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.4\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\mtali\AppData\Local\Microsoft\WindowsApps;C:\Users\mtali\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\System32;;."/>
+    <property name="stdout.encoding" value="windows-1252"/>
+    <property name="java.library.path" value="C:\Users\mtali\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/mtali/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin/server;C:/Users/mtali/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\mtali\AppData\Local\Microsoft\WindowsApps;C:\Users\mtali\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.4\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\mtali\AppData\Local\Microsoft\WindowsApps;C:\Users\mtali\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mtali\AppData\Roaming\npm;;C:\WINDOWS\System32;;."/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -38,7 +40,7 @@
     <property name="file.encoding" value="windows-1252"/>
     <property name="java.specification.version" value="17"/>
     <property name="user.name" value="mtali"/>
-    <property name="java.class.path" value="C:\Users\mtali\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.100.20230519-1558\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Users\mtali\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
@@ -57,25 +59,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
-    <property name="m2e.build.project.data.socket.port" value="52378"/>
+    <property name="m2e.build.project.data.socket.port" value="58136"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="com.demoBankingV1.testCases.TC_LoginTest_001" time="1.823"/>
-  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="8.719"/>
-  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="3.563"/>
-  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="3.787"/>
-  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="4.258"/>
-  <testcase name="addNewCustomer" classname="com.demoBankingV1.testCases.TC_AddCustomerTest_003" time="23.343"/>
-  <testcase name="editCustomer" classname="com.demoBankingV1.testCases.TC_EditCustomerTest_004" time="12.668"/>
-  <testcase name="editCustomerValid" classname="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005" time="15.35">
-    <failure message="unexpected alert open: {Alert text : You are not authorize to edit this customer!!}&#10;  (Session info: MicrosoftEdge=120.0.2210.144): You are not authorize to edit this customer!!&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [e5aaf35be5b8ef0604f5986aaa28b33a, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.144, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52744}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52744/devtoo..., se:cdpVersion: 120.0.2210.144, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e5aaf35be5b8ef0604f5986aaa28b33a" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You are not authorize to edit this customer!!}
-  (Session info: MicrosoftEdge=120.0.2210.144): You are not authorize to edit this customer!!
+  <testcase name="loginTest" classname="com.demoBankingV1.testCases.TC_LoginTest_001" time="1.125">
+    <failure message="unexpected alert open: {Alert text : User is not valid}&#10;  (Session info: MicrosoftEdge=131.0.2903.86): User is not valid&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [bec9ccbd221242220cf3df04a4d33428, getTitle {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58147}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58147/devtoo..., se:cdpVersion: 131.0.2903.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bec9ccbd221242220cf3df04a4d33428" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: MicrosoftEdge=131.0.2903.86): User is not valid
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e5aaf35be5b8ef0604f5986aaa28b33a, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.144, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52744}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52744/devtoo..., se:cdpVersion: 120.0.2210.144, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5aaf35be5b8ef0604f5986aaa28b33a
+Command: [bec9ccbd221242220cf3df04a4d33428, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58147}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58147/devtoo..., se:cdpVersion: 131.0.2903.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bec9ccbd221242220cf3df04a4d33428
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
@@ -84,23 +79,201 @@ Session ID: e5aaf35be5b8ef0604f5986aaa28b33a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-	at com.demoBankingV1.testCases.BaseClass.captureScreen(BaseClass.java:77)
-	at com.demoBankingV1.testCases.TC_EditCustomerValidTest_005.editCustomerValid(TC_EditCustomerValidTest_005.java:39)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:305)
+	at com.demoBankingV1.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:26)
 </failure>
-    <system-out><![CDATA[2024-01-24 21:30:42 INFO  ebanking:65 - URL is opened:
-2024-01-24 21:30:42 INFO  ebanking:19 - Provided username
-2024-01-24 21:30:42 INFO  ebanking:21 - Provided password
-2024-01-24 21:30:51 INFO  ebanking:23 - User logged in successfully
-2024-01-24 21:30:56 INFO  ebanking:40 - Clicked on Edit Customer
-26620
-2024-01-24 21:30:56 INFO  ebanking:33 - Entered valid cusstomer id
-2024-01-24 21:30:57 INFO  ebanking:52 - Clicked on Submit
+    <system-out><![CDATA[repName:  Test-Report-2024.12.11.21.51.34.html
+Report Path: C:\Users\mtali\eclipse-workspace\demoBankingV1/test-output/Test-Report-2024.12.11.21.51.34.html
+Config Path: C:\Users\mtali\eclipse-workspace\demoBankingV1/Configuration/extent-config.xml
+2024-12-11 21:51:43 INFO  ebanking:66 - URL is opened:
+2024-12-11 21:51:44 INFO  ebanking:20 - Entered Username
+2024-12-11 21:51:44 INFO  ebanking:22 - Entered Password
+2024-12-11 21:51:44 INFO  ebanking:24 - Click on login
 ]]></system-out>
-    <system-err><![CDATA[Jan 24, 2024 9:30:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 120
-Jan 24, 2024 9:30:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 120.0.2210.144. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Dec 11, 2024 9:51:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Dec 11, 2024 9:51:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.2903.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="3.025">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
+</failure>
+    <system-out><![CDATA[2024-12-11 21:51:52 INFO  ebanking:66 - URL is opened:
+2024-12-11 21:51:56 INFO  ebanking:43 - Username entered
+2024-12-11 21:51:57 INFO  ebanking:46 - Passwrod entered
+2024-12-11 21:51:57 INFO  ebanking:48 - Clicked on submit
+2024-12-11 21:51:57 INFO  ebanking:53 - Invalid credentials
+2024-12-11 21:51:57 WARN  ebanking:54 - Login failure
+Screenshot taken
+]]></system-out>
+    <system-err><![CDATA[Dec 11, 2024 9:51:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Dec 11, 2024 9:51:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.2903.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="2.428">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
+</failure>
+    <system-out><![CDATA[2024-12-11 21:51:59 INFO  ebanking:43 - Username entered
+2024-12-11 21:51:59 INFO  ebanking:46 - Passwrod entered
+2024-12-11 21:52:00 INFO  ebanking:48 - Clicked on submit
+2024-12-11 21:52:00 INFO  ebanking:53 - Invalid credentials
+2024-12-11 21:52:00 WARN  ebanking:54 - Login failure
+Screenshot taken
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="3.14">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
+</failure>
+    <system-out><![CDATA[2024-12-11 21:52:02 INFO  ebanking:43 - Username entered
+2024-12-11 21:52:02 INFO  ebanking:46 - Passwrod entered
+2024-12-11 21:52:03 INFO  ebanking:48 - Clicked on submit
+2024-12-11 21:52:03 INFO  ebanking:53 - Invalid credentials
+2024-12-11 21:52:03 WARN  ebanking:54 - Login failure
+Screenshot taken
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.demoBankingV1.testCases.TC_LoginDDT_002" time="2.294">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.demoBankingV1.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:58)
+</failure>
+    <system-out><![CDATA[2024-12-11 21:52:05 INFO  ebanking:43 - Username entered
+2024-12-11 21:52:05 INFO  ebanking:46 - Passwrod entered
+2024-12-11 21:52:05 INFO  ebanking:48 - Clicked on submit
+2024-12-11 21:52:05 INFO  ebanking:53 - Invalid credentials
+2024-12-11 21:52:05 WARN  ebanking:54 - Login failure
+Screenshot taken
+]]></system-out>
+  </testcase>
+  <testcase name="addNewCustomer" classname="com.demoBankingV1.testCases.TC_AddCustomerTest_003" time="2.966">
+    <failure message="unexpected alert open: {Alert text : User is not valid}&#10;  (Session info: MicrosoftEdge=131.0.2903.86): User is not valid&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [941d6ef9bdcb55a3d4bfce08f28e1e24, findElement {using=xpath, value=/html/body/div[3]/div/ul/li[2]/a}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58243}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58243/devtoo..., se:cdpVersion: 131.0.2903.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 941d6ef9bdcb55a3d4bfce08f28e1e24" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: MicrosoftEdge=131.0.2903.86): User is not valid
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [941d6ef9bdcb55a3d4bfce08f28e1e24, findElement {using=xpath, value=/html/body/div[3]/div/ul/li[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58243}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58243/devtoo..., se:cdpVersion: 131.0.2903.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 941d6ef9bdcb55a3d4bfce08f28e1e24
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.demoBankingV1.pageObjects.AddCustomerPage.clickAddCust(AddCustomerPage.java:60)
+	at com.demoBankingV1.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:33)
+</failure>
+    <system-out><![CDATA[2024-12-11 21:52:12 INFO  ebanking:66 - URL is opened:
+2024-12-11 21:52:12 INFO  ebanking:23 - Provided username
+2024-12-11 21:52:13 INFO  ebanking:25 - Provided password
+]]></system-out>
+    <system-err><![CDATA[Dec 11, 2024 9:52:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Dec 11, 2024 9:52:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.2903.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="editCustomer" classname="com.demoBankingV1.testCases.TC_EditCustomerTest_004" time="5.586">
+    <failure message="unexpected alert open: {Alert text : User is not valid}&#10;  (Session info: MicrosoftEdge=131.0.2903.86): User is not valid&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [b95d4fb4ed98cdf63b4c7b2e80c9458f, findElement {using=xpath, value=//a[normalize-space()=&apos;Edit Customer&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58290}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58290/devtoo..., se:cdpVersion: 131.0.2903.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b95d4fb4ed98cdf63b4c7b2e80c9458f" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: MicrosoftEdge=131.0.2903.86): User is not valid
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b95d4fb4ed98cdf63b4c7b2e80c9458f, findElement {using=xpath, value=//a[normalize-space()='Edit Customer']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58290}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58290/devtoo..., se:cdpVersion: 131.0.2903.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b95d4fb4ed98cdf63b4c7b2e80c9458f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.demoBankingV1.pageObjects.EditCustomerPage.clickEditCst(EditCustomerPage.java:36)
+	at com.demoBankingV1.testCases.TC_EditCustomerTest_004.editCustomer(TC_EditCustomerTest_004.java:27)
+</failure>
+    <system-out><![CDATA[2024-12-11 21:52:20 INFO  ebanking:66 - URL is opened:
+2024-12-11 21:52:24 INFO  ebanking:19 - Provided username
+2024-12-11 21:52:25 INFO  ebanking:21 - Provided password
+2024-12-11 21:52:25 INFO  ebanking:23 - User logged in successfully
+]]></system-out>
+    <system-err><![CDATA[Dec 11, 2024 9:52:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Dec 11, 2024 9:52:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.2903.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="editCustomerValid" classname="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005" time="1.057">
+    <failure message="unexpected alert open: {Alert text : User is not valid}&#10;  (Session info: MicrosoftEdge=131.0.2903.86): User is not valid&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [c5c7d2e3061403e26c450cbc495bf81a, findElement {using=xpath, value=//a[normalize-space()=&apos;Edit Customer&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58332}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58332/devtoo..., se:cdpVersion: 131.0.2903.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c5c7d2e3061403e26c450cbc495bf81a" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: MicrosoftEdge=131.0.2903.86): User is not valid
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c5c7d2e3061403e26c450cbc495bf81a, findElement {using=xpath, value=//a[normalize-space()='Edit Customer']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58332}, msedge: {msedgedriverVersion: 131.0.2903.86 (cf5bf303997c..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58332/devtoo..., se:cdpVersion: 131.0.2903.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5c7d2e3061403e26c450cbc495bf81a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.demoBankingV1.pageObjects.EditCustomerPage.clickEditCst(EditCustomerPage.java:36)
+	at com.demoBankingV1.testCases.TC_EditCustomerValidTest_005.editCustomerValid(TC_EditCustomerValidTest_005.java:27)
+</failure>
+    <system-out><![CDATA[2024-12-11 21:52:34 INFO  ebanking:66 - URL is opened:
+2024-12-11 21:52:34 INFO  ebanking:19 - Provided username
+2024-12-11 21:52:35 INFO  ebanking:21 - Provided password
+2024-12-11 21:52:35 INFO  ebanking:23 - User logged in successfully
+]]></system-out>
+    <system-err><![CDATA[Dec 11, 2024 9:52:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Dec 11, 2024 9:52:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.2903.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
 </testsuite>

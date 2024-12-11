@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="3" failed="5" skipped="0">
+<testng-results ignored="0" total="8" passed="2" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T21:22:15 IST" name="demoBankingV1" finished-at="2024-01-24T21:24:19 IST" duration-ms="124006">
+  <suite started-at="2024-08-15T14:01:48 IST" name="demoBankingV1" finished-at="2024-08-15T14:04:11 IST" duration-ms="143498">
     <groups>
     </groups>
-    <test started-at="2024-01-24T21:22:15 IST" name="Test" finished-at="2024-01-24T21:24:19 IST" duration-ms="124006">
+    <test started-at="2024-08-15T14:01:48 IST" name="Test" finished-at="2024-08-15T14:04:11 IST" duration-ms="143498">
       <class name="com.demoBankingV1.testCases.TC_LoginDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-01-24T21:22:28 IST" name="setup" finished-at="2024-01-24T21:22:40 IST" duration-ms="11934" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-08-15T14:02:02 IST" name="setup" finished-at="2024-08-15T14:02:07 IST" duration-ms="5554" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,16 +18,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-01-24T21:22:42 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-01-24T21:22:50 IST" duration-ms="8371" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-08-15T14:02:12 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-15T14:02:25 IST" duration-ms="13386" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr532735]]>
+                <![CDATA[mngr550077]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[tYruhUp]]>
+                <![CDATA[uzApegu]]>
               </value>
             </param>
           </params>
@@ -76,16 +76,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-01-24T21:22:50 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-01-24T21:22:56 IST" duration-ms="5470" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-08-15T14:02:25 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-15T14:02:30 IST" duration-ms="5260" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr532735]]>
+                <![CDATA[mngr550077]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[tYruhUp]]>
+                <![CDATA[uzApegu]]>
               </value>
             </param>
           </params>
@@ -134,16 +134,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-01-24T21:22:56 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-01-24T21:23:00 IST" duration-ms="4233" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-08-15T14:02:30 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-15T14:02:35 IST" duration-ms="4798" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr532735]]>
+                <![CDATA[mngr550077]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[tYruhUp]]>
+                <![CDATA[uzApegu]]>
               </value>
             </param>
           </params>
@@ -192,16 +192,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-01-24T21:23:00 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-01-24T21:23:04 IST" duration-ms="4030" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-08-15T14:02:35 IST" name="loginDDT" data-provider="LoginData" finished-at="2024-08-15T14:02:45 IST" duration-ms="9652" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr532735]]>
+                <![CDATA[mngr550077]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[tYruhUp]]>
+                <![CDATA[uzApegu]]>
               </value>
             </param>
           </params>
@@ -250,13 +250,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-01-24T21:23:04 IST" name="tearDown" finished-at="2024-01-24T21:23:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_LoginDDT_002@23e84203]" started-at="2024-08-15T14:02:45 IST" name="tearDown" finished-at="2024-08-15T14:02:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoBankingV1.testCases.TC_LoginDDT_002 -->
       <class name="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerValidTest_005@514646ef]" started-at="2024-01-24T21:23:56 IST" name="setup" finished-at="2024-01-24T21:24:07 IST" duration-ms="11491" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerValidTest_005@514646ef]" started-at="2024-08-15T14:03:40 IST" name="setup" finished-at="2024-08-15T14:03:55 IST" duration-ms="15789" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,27 +267,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="editCustomerValid()[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerValidTest_005@514646ef]" started-at="2024-01-24T21:24:07 IST" name="editCustomerValid" finished-at="2024-01-24T21:24:19 IST" duration-ms="11584" status="FAIL">
+        <test-method signature="editCustomerValid()[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerValidTest_005@514646ef]" started-at="2024-08-15T14:03:55 IST" name="editCustomerValid" finished-at="2024-08-15T14:04:11 IST" duration-ms="15824" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : You are not authorize to edit this customer!!}
-  (Session info: MicrosoftEdge=120.0.2210.144): You are not authorize to edit this customer!!
+  (Session info: MicrosoftEdge=127.0.2651.98): You are not authorize to edit this customer!!
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b7f561f96880b349c01d3053fadef9fa, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.144, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52188}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52188/devtoo..., se:cdpVersion: 120.0.2210.144, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7f561f96880b349c01d3053fadef9fa]]>
+Command: [2f5429be076e762dce189adcce41bb5a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55562}, msedge: {msedgedriverVersion: 127.0.2651.98 (9996f88545e1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55562/devtoo..., se:cdpVersion: 127.0.2651.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f5429be076e762dce189adcce41bb5a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You are not authorize to edit this customer!!}
-  (Session info: MicrosoftEdge=120.0.2210.144): You are not authorize to edit this customer!!
+  (Session info: MicrosoftEdge=127.0.2651.98): You are not authorize to edit this customer!!
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b7f561f96880b349c01d3053fadef9fa, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.144, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52188}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52188/devtoo..., se:cdpVersion: 120.0.2210.144, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7f561f96880b349c01d3053fadef9fa
+Command: [2f5429be076e762dce189adcce41bb5a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55562}, msedge: {msedgedriverVersion: 127.0.2651.98 (9996f88545e1..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55562/devtoo..., se:cdpVersion: 127.0.2651.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f5429be076e762dce189adcce41bb5a
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
@@ -297,7 +297,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-at com.demoBankingV1.testCases.BaseClass.captureScreen(BaseClass.java:77)
+at com.demoBankingV1.testCases.BaseClass.captureScreen(BaseClass.java:78)
 at com.demoBankingV1.testCases.TC_EditCustomerValidTest_005.editCustomerValid(TC_EditCustomerValidTest_005.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -333,13 +333,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editCustomerValid -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerValidTest_005@514646ef]" started-at="2024-01-24T21:24:19 IST" name="tearDown" finished-at="2024-01-24T21:24:19 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerValidTest_005@514646ef]" started-at="2024-08-15T14:04:11 IST" name="tearDown" finished-at="2024-08-15T14:04:11 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoBankingV1.testCases.TC_EditCustomerValidTest_005 -->
       <class name="com.demoBankingV1.testCases.TC_EditCustomerTest_004">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerTest_004@73eb439a]" started-at="2024-01-24T21:23:40 IST" name="setup" finished-at="2024-01-24T21:23:48 IST" duration-ms="7965" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerTest_004@73eb439a]" started-at="2024-08-15T14:03:16 IST" name="setup" finished-at="2024-08-15T14:03:26 IST" duration-ms="9922" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -350,17 +350,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="editCustomer()[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerTest_004@73eb439a]" started-at="2024-01-24T21:23:48 IST" name="editCustomer" finished-at="2024-01-24T21:23:56 IST" duration-ms="7444" status="PASS">
+        <test-method signature="editCustomer()[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerTest_004@73eb439a]" started-at="2024-08-15T14:03:26 IST" name="editCustomer" finished-at="2024-08-15T14:03:40 IST" duration-ms="13852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerTest_004@73eb439a]" started-at="2024-01-24T21:23:56 IST" name="tearDown" finished-at="2024-01-24T21:23:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_EditCustomerTest_004@73eb439a]" started-at="2024-08-15T14:03:40 IST" name="tearDown" finished-at="2024-08-15T14:03:40 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoBankingV1.testCases.TC_EditCustomerTest_004 -->
       <class name="com.demoBankingV1.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginTest_001@4a003cbe]" started-at="2024-01-24T21:22:15 IST" name="setup" finished-at="2024-01-24T21:22:24 IST" duration-ms="8999" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_LoginTest_001@4a003cbe]" started-at="2024-08-15T14:01:48 IST" name="setup" finished-at="2024-08-15T14:01:58 IST" duration-ms="9959" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -371,17 +371,59 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.demoBankingV1.testCases.TC_LoginTest_001@4a003cbe]" started-at="2024-01-24T21:22:24 IST" name="loginTest" finished-at="2024-01-24T21:22:28 IST" duration-ms="3566" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.demoBankingV1.testCases.TC_LoginTest_001@4a003cbe]" started-at="2024-08-15T14:01:58 IST" name="loginTest" finished-at="2024-08-15T14:02:02 IST" duration-ms="3629" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.demoBankingV1.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_LoginTest_001@4a003cbe]" started-at="2024-01-24T21:22:28 IST" name="tearDown" finished-at="2024-01-24T21:22:28 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_LoginTest_001@4a003cbe]" started-at="2024-08-15T14:02:02 IST" name="tearDown" finished-at="2024-08-15T14:02:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demoBankingV1.testCases.TC_LoginTest_001 -->
       <class name="com.demoBankingV1.testCases.TC_AddCustomerTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_AddCustomerTest_003@19932c16]" started-at="2024-01-24T21:23:04 IST" name="setup" finished-at="2024-01-24T21:23:12 IST" duration-ms="7964" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoBankingV1.testCases.TC_AddCustomerTest_003@19932c16]" started-at="2024-08-15T14:02:45 IST" name="setup" finished-at="2024-08-15T14:02:55 IST" duration-ms="9888" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -392,11 +434,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.demoBankingV1.testCases.TC_AddCustomerTest_003@19932c16]" started-at="2024-01-24T21:23:12 IST" name="addNewCustomer" finished-at="2024-01-24T21:23:40 IST" duration-ms="28297" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:com.demoBankingV1.testCases.TC_AddCustomerTest_003@19932c16]" started-at="2024-08-15T14:02:55 IST" name="addNewCustomer" finished-at="2024-08-15T14:03:16 IST" duration-ms="21082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_AddCustomerTest_003@19932c16]" started-at="2024-01-24T21:23:40 IST" name="tearDown" finished-at="2024-01-24T21:23:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoBankingV1.testCases.TC_AddCustomerTest_003@19932c16]" started-at="2024-08-15T14:03:16 IST" name="tearDown" finished-at="2024-08-15T14:03:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -36,7 +36,8 @@ public class BaseClass {
 	public void setup(@Optional String browser) {
 
 		
-		  logger = Logger.getLogger("ebanking"); PropertyConfigurator .configure(
+		  logger = Logger.getLogger("ebanking"); 
+		  PropertyConfigurator .configure(
 		  "C:\\Users\\mtali\\eclipse-workspace\\demoBankingV1\\Configuration\\log4j.properties"
 		  );
 		 
@@ -67,7 +68,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void tearDown() {
-	//	driver.quit();
+	driver.quit();
 	}
 
 	public void captureScreen(WebDriver driver, String testName) throws IOException {

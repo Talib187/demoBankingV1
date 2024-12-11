@@ -6,7 +6,7 @@
 	</listeners>
 
 	<test thread-count="5" name="Test">
-		<parameter name="browsers" value="edge" />
+		<parameter name="browsers" value="chrome" />
 
 		<classes>
 
@@ -14,9 +14,8 @@
 			<class name="com.demoBankingV1.testCases.TC_LoginDDT_002" />
 			<class name="com.demoBankingV1.testCases.TC_AddCustomerTest_003" />
 			<class name="com.demoBankingV1.testCases.TC_EditCustomerTest_004" />
-			<class name="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005" />
-
-
+			<class
+				name="com.demoBankingV1.testCases.TC_EditCustomerValidTest_005" />
 		</classes>
 
 	</test> <!--
